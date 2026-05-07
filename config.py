@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    AUTH_USER = os.environ.get('AUTH_USERS', '').split(',')
+    BOT_TOKEN = os.environ.get("8565895750:AAGn5GSgwv80MwvTamKp62-wrd6Cwhz2J2w")
+    API_ID = int(os.environ.get("20831039"))
+    API_HASH = os.environ.get("ea20b722f7af827db12fb85f4d55238c")
+    AUTH_USER = os.environ.get('AUTH_USERS', '7597020624').split(',')
     AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
     HOST = "https://drm-api-six.vercel.app"
-    CREDIT = "𝗥𝗼𝘆 𝗝𝗮𝗮𝘁™"#Here You Can Change with Your Name  or any custom name or title you prefer
+    CREDIT = "PATEL POWER ™"#Here You Can Change with Your Name  or any custom name or title you prefer
